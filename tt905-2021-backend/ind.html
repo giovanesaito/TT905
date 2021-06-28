@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Atividade 9
+        </title>
+        <meta charset="UTF-8"/>
+        <script src='f.js'></script>
+    </head>
+    <body>
+       <!-- <h2>Padrão Rest</h2>-->
+       <!-- <a href="javascript:callFetchWithGet()">Get</a> -->
+       <!-- <a href="javascript:callFetchWithPost('Pikachu')"> Post</a> -->
+       <!-- <a href="javascript:callFetchWithPut(1,'Raichu')">Put</a> -->
+       <!-- <a href="javascript:callFetchWithDelete(11)">Delete</a> -->
+       <!-- <p id='json'></p> -->
+
+       <h2>Spotify Premium (Get)</h2>
+       <a href="javascript:callFetchWithGet()">Get</a>
+       <p id='json'></p>
+
+        <h2>Spotify Premium (Post)</h2>
+        <form id="postForm">
+             <label for="Artista">Artista:</label>
+             <input type="text" name="Artista" id="Artista"/>
+            
+            
+
+             <label for="type">Genero:</label>
+             <input type="text" name="type" id="type"/>
+
+
+
+             <label for="about">Sobre:</label>
+             <input type="text" name="about" id="about"/>
+
+
+
+             <button type="submit" onclick="return submitPost()">Submit</button>
+        </form>
+
+
+
+        <h2>Spotify Premium(Put)</h2>
+        <form id="putForm">
+            <label>Id:
+            <input type="text" name="id" id="id"/>
+            </label>
+
+
+            <label>Artista:
+            <input type="text" name="Artista2" id="Artista2"/>
+            </label>
+
+            <label>Genero:
+            <input type="text" name="type2" id="type2"/>
+            </label>
+
+            <label >sobre:</label>
+            <input type="text" name="about2" id="about2"/>
+            </label>
+
+            <button type="submit" onclick="return submitPut()">Submit</button>
+       </form>
+
+       <h2>Spotify Premium (Delete)</h2>
+       <form id="deleteForm">
+        <label>Id:
+        <input type="text" name="id"/>
+        </label>
+        <button type="submit" onclick="return submitDelete()">Submit</button>
+   </form>
+
+
+    </body>
+</html>
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
